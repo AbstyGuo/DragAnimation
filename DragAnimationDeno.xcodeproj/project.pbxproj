@@ -16,6 +16,7 @@
 		DAE514CD1C9F8CEC000507E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE514CB1C9F8CEC000507E1 /* LaunchScreen.storyboard */; };
 		DAE514D81C9F8CEC000507E1 /* DragAnimationDenoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE514D71C9F8CEC000507E1 /* DragAnimationDenoTests.m */; };
 		DAE514E31C9F8CEC000507E1 /* DragAnimationDenoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE514E21C9F8CEC000507E1 /* DragAnimationDenoUITests.m */; };
+		DAE514F21C9F8D0C000507E1 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE514F11C9F8D0C000507E1 /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DAE514DE1C9F8CEC000507E1 /* DragAnimationDenoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAnimationDenoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE514E21C9F8CEC000507E1 /* DragAnimationDenoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragAnimationDenoUITests.m; sourceTree = "<group>"; };
 		DAE514E41C9F8CEC000507E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE514F01C9F8D0C000507E1 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		DAE514F11C9F8D0C000507E1 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				DAE514CE1C9F8CEC000507E1 /* Info.plist */,
 				DAE514C61C9F8CEC000507E1 /* DragAnimationDeno.xcdatamodeld */,
 				DAE514BA1C9F8CEC000507E1 /* Supporting Files */,
+				DAE514F01C9F8D0C000507E1 /* AnimationView.h */,
+				DAE514F11C9F8D0C000507E1 /* AnimationView.m */,
 			);
 			path = DragAnimationDeno;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				DAE514BF1C9F8CEC000507E1 /* AppDelegate.m in Sources */,
 				DAE514C81C9F8CEC000507E1 /* DragAnimationDeno.xcdatamodeld in Sources */,
 				DAE514BC1C9F8CEC000507E1 /* main.m in Sources */,
+				DAE514F21C9F8D0C000507E1 /* AnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
